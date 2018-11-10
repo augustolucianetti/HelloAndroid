@@ -19,4 +19,6 @@
     <string name="fiado">Fiado</string>
     <string name="cupom">Cupom</string>
     <string name="label_calcular">Calcular</string>
+
+    <string name="saudacao">Olá %1$s. Vamos ligar para o telefone %2$s</string>
 </resources>
