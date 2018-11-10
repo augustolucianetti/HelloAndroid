@@ -33,10 +33,12 @@
         <LinearLayout style="@style/container_linear">
 
             <CheckBox
+                android:id="@+id/cbAtum"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_atum" />
 
             <CheckBox
+                android:id="@+id/cbBacon"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_bacon" />
         </LinearLayout>
@@ -44,10 +46,12 @@
         <LinearLayout style="@style/container_linear">
 
             <CheckBox
+                android:id="@+id/cbCalabresa"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_calabresa" />
 
             <CheckBox
+                android:id="@+id/cbMussarela"
                 style="@style/checkbox_pizza"
                 android:text="@string/label_mussarela" />
         </LinearLayout>
@@ -62,16 +66,19 @@
             android:layout_height="wrap_content">
 
             <RadioButton
+                android:id="@+id/rbPequena"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_pequena" />
 
             <RadioButton
+                android:id="@+id/rbMedia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_media" />
 
             <RadioButton
+                android:id="@+id/rbGrande"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_grande" />
@@ -87,12 +94,13 @@
             android:entries="@array/formas_pagamento" />
 
         <Button
+            android:id="@+id/btCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/botao_personalizado"
             android:text="@string/label_calcular"
-            android:textColor="#FFFFFF"
-            android:layout_marginBottom="16dp"/>
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 </ScrollView>
