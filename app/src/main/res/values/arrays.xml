@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="formas_pagamento">
+        <item>@string/credito</item>
+        <item>@string/debito </item>
+        <item>@string/vr </item>
+        <item>@string/fiado </item>
+        <item>@string/cupom </item>
+    </string-array>
+</resources>

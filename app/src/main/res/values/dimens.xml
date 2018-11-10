@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_padrao_botao_customizado">10dp</dimen>
+    <dimen name="radius_padrao_botao_customizado">4dp</dimen>
+    <dimen name="width_padrao_stroke_botao_customizado">1dp</dimen>
+    <dimen name="botao_tamanho_texto">16sp</dimen>
+    <dimen name="padding_padrao">16dp</dimen>
+</resources>
